@@ -335,6 +335,7 @@ GameObject:
   - component: {fileID: 398583046}
   - component: {fileID: 398583045}
   - component: {fileID: 398583044}
+  - component: {fileID: 398583047}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -359,8 +360,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 36, y: -170}
-  m_SizeDelta: {x: 530.6, y: 128.2}
+  m_AnchoredPosition: {x: 80, y: -96.19}
+  m_SizeDelta: {x: 1156.01, y: 275.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &398583044
 MonoBehaviour:
@@ -456,6 +457,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 398583042}
   m_CullTransparentMesh: 1
+--- !u!95 &398583047
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398583042}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 657d548fd24a21c488bd14e88bc15858, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &445448488
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,7 +758,7 @@ Animator:
   m_GameObject: {fileID: 641886986}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: dde5fb00e007d4ba3836b40a74abdfc1, type: 2}
+  m_Controller: {fileID: 9100000, guid: dc184c1a7843e1042b0cde929aca6ffe, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1420,7 +1443,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
